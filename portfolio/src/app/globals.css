@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: black;
+  color: white;
+  scroll-behavior: smooth;
+  user-select: none;
+}
+._text-Shadow{
+  text-shadow: 1px 1px 5px #0000ff;
+}
+._text-Shadow_skill{
+  text-shadow: 1px 1px 3px #1c3e74;
+}
+
+span{
+  transition: all 1.2s ease;
+  transition-delay: 0ms;
+}
+._hovr:hover~span {
+    z-index: 10;
+    color: white;
+}
+
+._hovr:hover{
+  opacity: .8;
+}
+
+._transiton{
+  transition: all;
+  transition-duration: 400ms;
+}
