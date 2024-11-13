@@ -1,0 +1,168 @@
+/* Contact.module.css */
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .innerContainer {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1.75rem;
+  }
+  
+  .backLinkDesktop {
+    color: #60a5fa;
+    display: none;
+    font-size: 2rem;
+    align-self: flex-start;
+    margin-top: 1.75rem;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+  }
+  
+  .backLinkDesktop:hover {
+    background-color: #1f2937;
+  }
+  
+  .backLinkMobile {
+    color: #60a5fa;
+    display: block;
+    font-size: 1.875rem;
+    align-self: flex-start;
+    margin-top: 1.75rem;
+  }
+  
+  /* 'flex  w-full gap-10 items-center' */
+  .contact{
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .mapContainer {
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .mapIframe {
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.75rem;
+    margin-top: 2rem;
+  }
+  
+  .formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    /* height: fit-content; */
+  }
+  
+  .formTitleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formIcon {
+    font-size: 2rem;
+    color: #fb923c;
+  }
+  
+  .formTitle {
+    font-size: 1.875rem;
+  }
+  
+  .formDescription {
+    font-size: 0.875rem;
+    color: #94a3b8;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+    background-color: #292524;
+    border-radius: 0.5rem;
+    border: 1px solid #3b82f6;
+    outline: none;
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    outline: 1px solid #3b82f6;
+  }
+  
+  .button {
+    background-color: #3b82f6;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .button:hover {
+    background-color: #2563eb;
+  }
+  
+  .button:active {
+    transform: scale(0.98);
+  }
+
+
+
+  /* md */
+  @media (min-width: 768px) {
+    .backLinkDesktop {
+      display: block;
+    }
+  
+    .backLinkMobile {
+      display: none;
+    }
+    .innerContainer{
+        flex-direction: row;
+        margin-top:0;
+        width: 90%;
+    }
+    .mapContainer {
+      display: flex;
+    }
+  
+    .mapIframe {
+      height: 320px;
+    }
+  }
+  
+
+  /* lg */
+  @media (min-width: 1024px) {
+    .innerContainer {
+      width: 90%;
+    }
+    .mapIframe {
+      height: 380px
+    }
+  }
+  
