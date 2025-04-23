@@ -16,7 +16,7 @@ const Hero = () => {
                 </div>
                 <span className='sm:w-1/2 sm:mt-2'>
                     <h2 className={`_text-Shadow  ${font.className} font-extrabold text-lg md:text-xl`}>Hello, It&apos;s Me</h2>
-                    <h1 className={` _text-Shadow ${nameFont.className} text-[3rem] lg:text-[4rem]`}>Suhail Shah</h1>
+                    <h1 className={` _text-Shadow ${nameFont.className} text-[3rem] lg:text-[4rem]`}>Zain Shah</h1>
                     <h2 className={`${font.className} font-extrabold text-lg md:text-xl`}>And I&apos;m a <span className='_text-Shadow text-blue-300 font-semibold'>Front-End Developer</span></h2>
                     <Link href="/about"><button className={`${btnFont.className} bg-blue-400 rounded-md py-1 px-4 sm:py-2 sm:px-6 text-xs sm:text-sm text-slate-950 mt-10 hover:bg-blue-500 active:scale-95 transition-all`}>ABOUT ME</button></Link>
                 </span>
