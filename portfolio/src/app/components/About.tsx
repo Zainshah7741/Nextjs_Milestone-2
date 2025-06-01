@@ -21,12 +21,11 @@ const About = () => {
                 <h1 className='text-center _text-Shadow  text-2xl sm:hidden'>ABOUT ME</h1>
                 <div className='flex flex-col gap-8 items-center sm:flex-row sm:justify-center md:mt-5 lg:mt-10'>
                     <div className='sm:1/2'>
-                        <Image src={'/pic.png'} alt='' width={300} height={300} className='rounded-full sm:rounded-3xl lg:w-[400px]'></Image>
+                        <Image src={'/pi.png'} alt='' width={300} height={300} className='rounded-full sm:rounded-3xl lg:w-[400px]'></Image>
                     </div>
                     <div className={`${fontStyle.className} flex flex-col text-sm gap-1 sm:text-xs md:text-sm lg:text-lg text-justify sm:w-80 lg:w-1/2`}>
                         <h1 className={`${fontHeading.className} shadow-sm shadow-red-800 text-center   hidden sm:block text-3xl `}>ABOUT ME</h1>
-                        <p className='lg:flex lg:flex-col mt-5'><span className={` lg:text-lg`}>Hello, I’m</span> <span className={`_text-Shadow  lg:text-4xl`}>Zain Shah</span> a Front-End Developer with a true passion for creating beautiful and functional websites. I specialize in HTML, CSS, JavaScript, TypeScript, Next.js, and Tailwind CSS, and I love bringing designs to life with clean, responsive code that works seamlessly on all devices.</p>
-                        <p >Web development isn’t just my profession; it’s something I genuinely enjoy. I’m always excited to explore new tools, learn new techniques, and take on challenges that push my skills further. Every project is an opportunity for me to combine creativity with technical expertise, and I’m committed to delivering quality results that make a difference.</p>
+                        <p className='lg:flex lg:flex-col mt-5'><span className={` lg:text-lg`}>Hello, I’m</span> <span className={`_text-Shadow  lg:text-4xl`}>Zain Shah</span> I'm an intermediate (Computer Science) student from Hyderabad Board with a strong interest in web development. I have completed a PHP course from Hidaya Institute of Science and Technology and have hands-on experience with HTML, CSS, JavaScript, TypeScript, Tailwind CSS, and Next.js. I’m also exploring the exciting world of Generative and Agentic AI to stay updated with modern technologies.</p>
                         <Link href='/contact' className={`${btnFont.className} place-self-start bg-blue-600 active:scale-95 hover:bg-blue-700 py-1 px-4 lg:py-2 lg:px-6 rounded-md text-black text-xs mt-2 lg:mt-4  transition-all`}>CONTACT</Link>
                     </div>
                     <div className='bg-[rgba(208,214,220,0.2)] flex sm:hidden text-2xl gap-3 py-1.5 px-4 rounded-full mb-7'>
