@@ -5,6 +5,7 @@ import { IoArrowBackCircle, IoLogoJavascript, IoArrowBackOutline } from "react-i
 import { FaHtml5, FaCss3Alt } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { SiPhp, SiBootstrap, SiMysql } from "react-icons/si";
 
 
 const nameFont = Abril_Fatface({ weight: "400", subsets: ['latin'] })
@@ -24,11 +25,14 @@ const Skills = () => {
                         <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><FaCss3Alt className='_hovr text-[#264DE4] text-3xl w-full sm:text-5xl md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>CSS</span></div>
                         <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><IoLogoJavascript className='_hovr text-[#F7E025] text-3xl w-full sm:text-5xl md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>Javascript</span></div>
                         <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><BiLogoTypescript className='_hovr text-[#037ACC] text-3xl sm:text-5xl w-full md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>Typescript</span></div>
+                        <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><SiBootstrap  className='_hovr text-white text-3xl sm:text-5xl w-full md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>Bootstrap</span></div>
+                            <div className='flex flex-col items-center  bg-[#141311] rounded-lg px-3 py-4 shadow-sm shadow-blue-500 gap-1 '>
+                                <RiTailwindCssFill className='_hovr text-[#3EBFF8] text-3xl w-full sm:text-5xl md:text-7xl xl:text-8xl' />
+                                <span className='text-white md:-z-10 md:text-black'>Tailwind CSS</span></div>
                         <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><RiNextjsFill className='_hovr text-white text-3xl sm:text-5xl w-full md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>Next.js</span></div>
-                        <div className='flex flex-col items-center  bg-[#141311] rounded-lg px-3 py-4 shadow-sm shadow-blue-500 gap-1 '>
-                            <RiTailwindCssFill className='_hovr text-[#3EBFF8] text-3xl w-full sm:text-5xl md:text-7xl xl:text-8xl' />
-                            <span className='text-white md:-z-10 md:text-black'>Tailwind CSS</span></div>
-                    </div>
+                        <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><SiPhp className='_hovr text-white text-3xl sm:text-5xl w-full md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>Php</span></div>
+                        <div className='flex flex-col items-center bg-[#141311] rounded-lg px-9 py-5 shadow-sm shadow-blue-500 gap-1'><SiMysql className='_hovr text-white text-3xl sm:text-5xl w-full md:text-7xl xl:text-8xl' /><span className='text-white md:-z-10 md:text-black'>MySQL</span></div>
+                        </div>
                 </div>
 
             </div>
