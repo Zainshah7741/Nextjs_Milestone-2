@@ -41,10 +41,10 @@ const Navbar = () => {
                 </ul>
                 <h1 className={`${lobster.className} text-2xl  sm:hidden text-transparent bg-clip-text bg-gradient-to-r from-[maroon] to-[gold] pl-3`}>Zain</h1>
                 <div className=''>
-                    <Link href='/'><Image src="/pic.png" alt="logo" width={500} height={500} title="logo" className='w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 rounded-[50%] hidden sm:block'></Image></Link>
+                    <Link href='/'><Image src="/pi.png" alt="logo" width={500} height={500} title="logo" className='w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16 rounded-[50%] hidden sm:block'></Image></Link>
                 </div>
                 <ul className=' hidden sm:flex gap-10 text-lg md:text-xl lg:text-2xl'>
-                    <li><Link href="https://www.linkedin.com/in/zain-shah-961b5428b/" target='_blank'><FaLinkedin className='hover:text-[#0077B5]  rounded hover:scale-95' title='LinkedIn' /></Link></li>
+                    <li><Link href="https://www.linkedin.com/in/zain-shah-659753356/" target='_blank'><FaLinkedin className='hover:text-[#0077B5]  rounded hover:scale-95' title='LinkedIn' /></Link></li>
                     <li><Link href="https://github.com/Zainshah7741" target='_blank'><FaGithubSquare className=' rounded hover:scale-95 hover:text-[#d2c8c8]' title='GitHub' /></Link></li>
                     <li><Link href="mailto:zainshah7741@gmail.com" target='_blank'><SiGmail className='rounded hover:scale-95 hover:text-[#d2c8c8]' title='Gmail' /></Link></li>
                 </ul>
