@@ -29,7 +29,7 @@ const About = () => {
                         <Link href='/contact' className={`${btnFont.className} place-self-start bg-blue-600 active:scale-95 hover:bg-blue-700 py-1 px-4 lg:py-2 lg:px-6 rounded-md text-black text-xs mt-2 lg:mt-4  transition-all`}>CONTACT</Link>
                     </div>
                     <div className='bg-[rgba(208,214,220,0.2)] flex sm:hidden text-2xl gap-3 py-1.5 px-4 rounded-full mb-7'>
-                        <Link href="https://www.linkedin.com/in/zain-shah-961b5428b/" target='_blank'><FaLinkedinIn className='text-[#0077B5] p-1 bg-black rounded hover:scale-95' title='LinkedIn' /></Link>
+                        <Link href="https://www.linkedin.com/in/zain-shah-659753356/" target='_blank'><FaLinkedinIn className='text-[#0077B5] p-1 bg-black rounded hover:scale-95' title='LinkedIn' /></Link>
                         <Link href="https://github.com/Zainshah7741" target='_blank'><FaGithubSquare className=' rounded scale-95 text-[#d2c8c8]' title='GitHub' /></Link>
                         <Link href="mailto:zainshah7741@gmail.com" target='_blank'><SiGmail className={`rounded scale-95 `} title='Gmail' /></Link>
                     </div>
