@@ -3,17 +3,12 @@ import Image from 'next/image';
 
 
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// import './styles.css';
-
-// import required modules
 import { Pagination, Navigation } from 'swiper/modules';
 import Link from 'next/link';
 
@@ -29,6 +24,20 @@ const Sliding = () => {
                 className="mySwiper"
             >
                 <SwiperSlide className='pb-10 '>
+                    <div className='flex justify-center w-full items-center   mt-7 '>
+                        <div className='w-60 bg-zinc-900 flex justify-center items-center py-5 flex-col rounded-lg'>
+                            <div className='bg-zinc-950 w-[92%] px-2 py-5 rounded-xl'>
+                                <Image src={'/blog.png'} alt='' width={100} height={250} className='rounded-md h-32 m-auto'></Image>
+                            </div>
+                            <div className='bg-zinc-950 w-[92%] mt-3 rounded-xl p-3 flex flex-col items-center gap-1'>
+                                <h1 className='_text-Shadow text-2xl font-medium font-serif'>Blog Web App</h1>
+                                <p className='text-[8px]'>A dynamic blog platform with a responsive frontend for browsing posts by category and a functional admin dashboard for managing blogs, users, categories, and comments. Built from scratch using PHP and MySQL, it includes real-time dashboard stats, user status control, and clean, scalable code structure.</p>
+                            </div>
+                            <Link href="https://github.com/Zainshah7741/Blog-Application.git" target='_blank' className='bg-zinc-950 py-2 w-[92%] rounded-lg mt-3 text-xs text-center font-semibold'>VIEW PROJECT</Link>
+                        </div>
+                    </div>
+                </SwiperSlide>
+                 <SwiperSlide className='pb-10 '>
                     <div className='flex justify-center w-full items-center   mt-7 '>
                         <div className='w-60 bg-zinc-900 flex justify-center items-center py-5 flex-col rounded-lg'>
                             <div className='bg-zinc-950 w-[92%] px-2 py-5 rounded-xl'>
